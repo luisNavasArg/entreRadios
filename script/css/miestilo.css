@@ -1,0 +1,158 @@
+body{
+background-color:LightYellow;
+}
+#entrar,#registrar,#entrarAdministrador{
+display:none;
+}
+#opciones{
+display:none;
+width:200px;
+padding-top:20px;
+border:solid this #000000;
+position:absolute;
+top:400px;
+left:30%;
+/*
+fixed
+*/
+}
+#cabecera{
+font-family: arial;
+	font-size: 25px;
+background-color:PowderBlue;
+box-shadow: 6px 8px 10px black;
+/*borde superior derecho */
+border-top-right-radius:10px;
+	
+/*borde superior izquierdo */
+border-top-left-radius:10px;
+	
+/*borde inferior izquierdo */
+border-bottom-left-radius:10px;
+/*borde inferior derecho*/
+border-bottom-right-radius:10px;
+margin: 10px 20px;
+margin-top:0px;
+margin-bottom:35px;
+color:black;
+word-wrap:break-word;/*hypernate, normal*/
+}
+#titulo{
+text-shadow:1px 2px 3px yellow;
+text-align:center;
+}
+#opciones a{
+display:block;
+width:200px;
+height:25px;
+padding-top:5px;
+padding-left:3px;
+text-decoration:none;
+margin-top:25px;
+margin-bottom:25px;
+}
+#logo{
+position:relative;
+top:10%;
+left:10%;
+}
+
+#buscar{
+color:red;
+width:200px;
+height:25px;
+color:#000000;
+text-decoration:none;
+position:absolute;
+}
+
+#opciones a:hover{
+font-weight:bold;
+width:200px;
+}
+
+#devolver a{
+display:none;
+font-weight:bold;
+background:#cdcdcd;
+width:200px;
+text-decoration:none;
+}
+
+table, th, td, tr
+{
+	border:1px;
+cellspacing:10px;
+cellpadding:10px;
+font-size: 12pt;
+		/*Tipo de letra Arial*/
+	font-family:verdana;
+	/*Tamaño de la letra*/
+	font-size:16px;
+	
+		background-color:hsla(90,50%,99%, .30);
+
+	/*<!-- palabra reservada que evita que los textos se desborden-->*/
+	word-wrap:break-word;
+	/*Alineación del texto centrada*/
+	text-align:center;
+	width:700px;
+
+
+	
+
+   border-color: black;
+   border-width: 0.7px;
+   border-style: solid;
+
+	
+	}
+.boton{
+cursor:pointer;
+font-family: arial;
+font-size: 20px;
+background-color:green;
+width:230px;
+}
+
+*{
+    font-size: 18px;
+}
+form.form {
+    background: none repeat scroll 0 0 #F1F1F1;
+    border: 1px solid #DDDDDD;
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    width: 278px;
+}
+form.login div {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+form.login div label {
+    display: block;
+    float: left;
+    line-height: 25px;
+}
+form.login div input[type="text"], form.login div input[type="password"] {
+    border: 1px solid #DCDCDC;
+    float: right;
+    padding: 4px;
+}
+form.login div input[type="submit"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;
+    float: right;
+    font-weight: bold;
+    padding: 4px 20px;
+}
+.error{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
